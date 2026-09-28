@@ -1,0 +1,4 @@
+# PaddleOCR 3.x local OCR test (CPU). Install PaddlePaddle from the official CPU index first:
+#   python -m pip install paddlepaddle==3.2.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+paddlepaddle==3.2.0
+paddleocr==3.7.0

@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OCR outputs (may contain sensitive extracted text)
+output/
+
+# Document images — do not commit passport/licence photos
+samples/passport/*
+!samples/passport/.gitkeep
+samples/licence/*
+!samples/licence/.gitkeep
+
+# Local smoke / temp images
+*.tmp
+*.log
